@@ -6,7 +6,7 @@ const PORT = 8001;
 app.use(cors());
 
 app.get('/', (req, res) => {
-  res.send('Hello, School Management App!');
+  res.send('Hello New, School Management App!');
 });
 
 app.listen(PORT, () => {
