@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 
 function App() {
   const [message, setMessage] = useState('');
-  const API_URL = "https://school-management-backend.onrender.com";
+  const API_URL = "https://school-management-system-lt3h.onrender.com/";
 
   useEffect(() => {
     fetch(API_URL)
