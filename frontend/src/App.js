@@ -2,9 +2,10 @@ import React, { useEffect, useState } from 'react';
 
 function App() {
   const [message, setMessage] = useState('');
+  const API_URL = "https://school-management-backend.onrender.com";
 
   useEffect(() => {
-    fetch('http://localhost:8001')
+    fetch(API_URL)
       .then((response) => response.text())
       .then((data) => setMessage(data));
   }, []);
